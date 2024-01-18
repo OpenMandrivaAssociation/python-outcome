@@ -31,5 +31,6 @@ call, so that it can be passed around.
 %install
 %py_install
 
-
 %files
+%{python_sitelib}/outcome-%{version}.dist-info
+%{python_sitelib}/outcome/
